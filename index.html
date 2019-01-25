@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Travel Agency</title>
-</head>
-<body>
-    
-</body>
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Main Css END -->
+  </head>
+
+  <body>
+    <header>
+      <div id="logo"><a href="#">Travel Agency</a></div>
+      <nav>
+        <ul>
+          <li><a href="#tours" class="navigation-link">Tours</a></li>
+          <li><a href="#" class="navigation-link">News</a></li>
+          <li><a href="#" class="navigation-link">Why chose us</a></li>
+          <li><a href="#" class="navigation-link">Reservation</a></li>
+          <li><a href="#" class="navigation-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="menu-btn"><span></span> <span></span> <span></span></div>
+    </header>
+    <section id="intro">
+      <div class="introOpacity"></div>
+      <div class="introText">
+        <div class="countainer">
+          <h1>Travel Agency</h1>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+            dolore!</span
+          >
+        </div>
+      </div>
+      <form action="" id="searchBar">
+        <div class="countainer">
+          <div class="searchItem">
+            <label for="destination">Destination:</label>
+            <input type="text" name="destination" />
+          </div>
+          <div class="searchItem">
+            <label for="dateDeparture">Date Departure:</label>
+            <input type="date" name="dateDeparture" />
+          </div>
+          <div class="searchItem">
+            <label for="dateArrival">Date Aarrival:</label>
+            <input type="date" name="dateArrival" />
+          </div>
+          <div class="searchItem">
+            <label for="people">People:</label>
+            <select name="people" class="col-5 formItems">
+              <option value="people_1">1 Person</option>
+              <option value="people_2">2 People</option>
+              <option value="people_3">3 People</option>
+              <option value="people_4">4 People</option>
+              <option value="people_5">5 People</option>
+              <option value="people_6">6 People</option>
+            </select>
+          </div>
+          <div class="searchItem"><input type="submit" value="Submit" /></div>
+        </div>
+      </form>
+    </section>
+    <section id="tours">
+      <div class="countainer">
+        <h2>Tours</h2>
+        <span>Check out our best promotions tours</span>
+        <div class="row">
+          <div class="tourItem">
+            <a href="#">
+              <img src="https://picsum.photos/300/200" alt="" />
+              <div class="tourItemText">
+                <ul>
+                  <li>Italy</li>
+                  <li>7 days</li>
+                </ul>
+                <ul>
+                  <li>Grand Italy</li>
+                  <li>$3.000</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          <div class="tourItem">
+            <a href="#">
+              <img src="https://picsum.photos/300/200" alt="" />
+              <div class="tourItemText">
+                <ul>
+                  <li>Italy</li>
+                  <li>7 days</li>
+                </ul>
+                <ul>
+                  <li>Grand Italy</li>
+                  <li>$3.000</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          <div class="tourItem">
+            <a href="#">
+              <img src="https://picsum.photos/300/200" alt="" />
+              <div class="tourItemText">
+                <ul>
+                  <li>Italy</li>
+                  <li>7 days</li>
+                </ul>
+                <ul>
+                  <li>Grand Italy</li>
+                  <li>$3.000</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JjQyery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JjQyery CDN END -->
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+    <!-- Main JS END -->
+  </body>
 </html>

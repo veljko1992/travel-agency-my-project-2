@@ -1,0 +1,23 @@
+#tours {
+  .tourItem {
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .tourItemText {
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      background-color: rgba($color: #000000, $alpha: 0.5);
+      width: 100%;
+      color: white;
+      ul{
+          display: flex;
+          justify-content: space-between;
+          padding: 5px;
+      }
+  }
+}

@@ -1,0 +1,46 @@
+#intro{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/introImg.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    .introOpacity{
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0.4;
+    }
+    .introText{
+        text-align: center;
+        color: white;
+        z-index: 3;
+        margin-bottom: 100px;
+        h1{
+            margin-bottom: 10px;
+        }
+    }
+    #searchBar{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .searchItem{
+        margin-bottom: 10px;
+        label{
+            display: block;
+            color: white;
+            margin-bottom: 10px;
+        }
+        input, select{
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+        }
+    }
+}
