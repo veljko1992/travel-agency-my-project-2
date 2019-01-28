@@ -1,0 +1,25 @@
+#testamonial {
+  h2 {
+    margin-bottom: 30px;
+  }
+  p {
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  .owl-dots{
+    display: flex;
+    justify-content: center;
+  }
+  .owl-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    background-color: lightslategrey;
+    margin-right: 3px;
+  }
+  .owl-dot[class~="active"]{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+  }
+}
