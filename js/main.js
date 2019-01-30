@@ -44,12 +44,28 @@ nav.on("click", function() {
 });
 //Navigation END
 
+// Smooth scrool
+$("nav .navigation-link").on("click", function(e) {
+  e.preventDefault();
+  sectionID = $(this).attr("href");
+  // console.log(sectionID);
+  sectionPosition = $(sectionID).offset().top;
+  // console.log(sectionPosition);
+  $("html, body").animate(
+    {
+      scrollTop: sectionPosition
+    },
+    1000
+  );
+});
+// Smooth scrool END
+
 //Shrink hedera on scrool
 var fromTop;
 
 $(window).on("scroll", function() {
   fromTop = $(this).scrollTop();
-  if (fromTop > 200) {
+  if (fromTop > 100) {
     $("header").addClass("small");
   } else {
     $("header").removeClass("small");
@@ -58,13 +74,13 @@ $(window).on("scroll", function() {
 //Shrink hedera on scrool END
 
 //Carusel
-var owl = $('.owl-carousel');
+var owl = $(".owl-carousel");
 owl.owlCarousel({
-    items:1,
-    loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true
+  items: 1,
+  loop: true,
+  margin: 10,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplayHoverPause: true
 });
 //Carusel END

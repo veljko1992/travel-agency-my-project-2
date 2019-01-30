@@ -1,0 +1,44 @@
+#promtions{
+    position: relative;
+    img, h2{
+        margin-bottom: 30px;
+    }
+    .priceBox{
+        width: 150px;
+        height: 80px;
+        background-color: lightcoral;
+        position: absolute;
+        top: 0;
+        right: 0;
+        box-shadow: 5px 3px 3px grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul{     
+            li{
+                color: white;
+                text-transform: uppercase;
+                text-align: center;
+            }
+        }
+    }
+    p{
+        margin-bottom: 30px;
+    }
+    .owl-dots{
+        display: flex;
+        justify-content: center;
+      }
+      .owl-dot{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%; 
+        background-color: lightslategrey;
+        margin-right: 3px;
+      }
+      .owl-dot[class~="active"]{
+        width: 10px;
+        height: 10px;
+        background-color: black;
+      }
+}
