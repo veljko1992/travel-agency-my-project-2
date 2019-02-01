@@ -1,0 +1,35 @@
+#getInTouch{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("../img/Beach.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;;
+    h2{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    form{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        background-color: white;
+    }
+    label, textarea, input{
+        display: block;
+        margin-bottom: 15px;
+    }
+    input, textarea{
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 100%;
+    }
+    input{
+        height: 30px;
+    }
+    .button{
+        background-color: lightcoral;
+    }
+}
