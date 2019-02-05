@@ -103,12 +103,8 @@ header {
     }          
 
     #logo {
-        // width: 100px;
         display: inline-block;
         margin-left: 15px;
-        // img{
-        //     width: 100%;
-        // }
     }
 }
 
@@ -125,16 +121,6 @@ header {
 .small {
     height: 60px;
     background-color: lightcoral;
-
-    #logo {
-        // width: 40px;
-    }
-
-    // span {
-    //     background-size: 30px;
-    //     width: 30px;
-    //     height: 30px;
-    // }
 }
 
 .orangeHeader {
@@ -150,6 +136,11 @@ header {
         nav {
             width: 100%;
             height: 80px;
+            ul{
+                a{
+                    font-size: 20px;
+                }
+            }
         }
 
         nav ul {
@@ -168,6 +159,7 @@ header {
             width: 100px;
             padding: 15px;
         }
+
     }
 
     .small {

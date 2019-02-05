@@ -44,4 +44,54 @@
             border: 0;
         }
     }
+    .searchItem:last-child{
+        input:hover{
+            background-color: lightcoral;
+            color: white;
+        }
+    }
 }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    #intro{
+        .searchItem:last-child{
+            input{
+                width: 50%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        span{
+            font-size: 20px;
+        }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    #intro{
+        .searchItem:last-child{
+            display: flex;
+            flex-direction: column-reverse;
+            input{
+                width: 100%;
+            }
+        }
+        .row{
+            justify-content: center;
+        }
+        span{
+            font-size: 22px;
+        }
+  }
+  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { #intro{
+    span{
+        font-size: 26px;
+    }
+} }
