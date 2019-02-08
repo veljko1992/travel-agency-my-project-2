@@ -3,14 +3,38 @@
     img, h2{
         margin-bottom: 30px;
     }
+    .promItemText{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        p{
+        text-align: center;
+        }
+        .buttonWrapper{
+            display: flex;
+            justify-content: center;
+        }
+        .button{
+            display: inline-block;
+            margin: 0 auto;
+            background-color: lightgray;
+            text-align: center;
+            padding: 5px 20px;
+            border: 0;
+            border-radius: 5px;
+        }
+        .button:hover{
+            background-color: lightcoral;
+        }
+    }
     .priceBox{
         width: 150px;
         height: 80px;
         background-color: lightcoral;
         position: absolute;
         top: 0;
-        right: 0;
-        box-shadow: 5px 3px 3px grey;
+        right: 15px;
+        box-shadow: 3px 3px 3px grey;
         display: flex;
         justify-content: center;
         align-items: center;

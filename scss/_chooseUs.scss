@@ -6,11 +6,7 @@
     padding-bottom: 10px;
     margin-top: 15px;
     .chooseItem{
-        background-color: white;
         position: relative;
-        padding: 30px;
-        margin-bottom: 30px;
-        text-align: center;
         span{
             background-color: lightcoral;
             width: 40px;
@@ -25,6 +21,15 @@
             left: 50%;
             transform: translateX(-50%);
             top: -20px;
+        }
+        .chooseItemWrapper{
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        p{
+            line-height: 30px;
         }
     }
     h2{
