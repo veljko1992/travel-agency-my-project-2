@@ -1,14 +1,10 @@
 #getInTouch{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     background-image: url("../img/Beach.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 30px;;
+    padding: 80px 15px 50px;
     h2{
-        margin-bottom: 30px;
         width: 100%;
     }
     form{
@@ -29,7 +25,13 @@
     input{
         height: 30px;
     }
-    .button{
+    .button:hover{
         background-color: lightcoral;
     }
 }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    #getInTouch{
+        padding-left: 70px;
+    }
+ }

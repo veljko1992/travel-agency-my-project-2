@@ -1,12 +1,15 @@
-#promtions{
+#promotions{
     position: relative;
-    img, h2{
+    img{
         margin-bottom: 30px;
     }
     .promItemText{
         display: flex;
         align-items: center;
         margin-bottom: 30px;
+        h2{
+            margin-bottom: 30px;
+        }
         p{
         text-align: center;
         }
