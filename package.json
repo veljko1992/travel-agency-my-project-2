@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/veljko1992/My-Project-2-Travel-Agency#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
     "node-sass": "^4.11.0"
